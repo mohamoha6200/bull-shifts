@@ -1,16 +1,20 @@
 # bull_shifts
 
-A new Flutter project.
+A small application made to showcase skills as part of a technical test. 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Built With
 
-A few resources to get you started if this is your first Flutter project:
+[![Flutter][Flutter]][Flutter-url]
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### How to Use
+
+Note that This project uses multiple `inject` libraries that work with code generation, execute the following command to generate the necessary files:
+
+```
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
+
+[Flutter]: https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white
+[Flutter-url]: https://flutter.dev/
